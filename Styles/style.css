@@ -1,6 +1,10 @@
-
+.header{
+    display: flex;
+    justify-content: center;
+}
 .first-section {
-    display: flex; 
+    display: flex;
+    justify-content: center; 
     justify-content: space-between; 
     align-items: center; 
     background-color: #C6E4D6;
@@ -22,6 +26,7 @@
     font-size: 40px;
     color: #0E0E0E;
 }
+
 .explore-btn{
     background-color: #006A50;
     color: white;
@@ -40,6 +45,7 @@
     color: #0E0E0E;
     font-weight: 800;
     font-size: 40px;
+    
 }
 .card{
     background-color: #548ff557;
@@ -90,18 +96,23 @@
     background-color: #FFC239;
  }
  .section-two{
-    margin-left: 43px;
-    margin-right: 43px;
+    justify-content: center;
+    align-items: center;
  }
- 
+ .middle {
+    display: flex;
+    justify-content: center;  
+}
 
+.section-two {
+   width: 1280px;
+    
+}
 .quote {
     background-image: url(/assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
     width: 1280px;
-    margin-left: 40px;
-    margin-right: 20px;
     margin-top: 32px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -113,17 +124,21 @@
   .quote-content{
     padding-left: 10px;
   }
+  .section-three{
+    display: flex;
+    justify-content: center;
+  }
   .recent-news-container {
     display: flex;
-    align-items: center; 
-    gap: 32px; 
-    width: 1280px; 
-    margin: 32px ; 
-    padding: 20px;
-    background-color: #fff; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    border-radius: 8px; 
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1280px; 
   }
+
   
   .satelite-img {
     flex: 1; 
@@ -159,10 +174,23 @@
     cursor: pointer;
     color: white;
   }
+ .description-section{
+    width: 1280px;
+    
+ }
+ .news{
+    display: flex;
+    justify-content: center;
+ }
+  .second-item{
+    margin-top: 20px;
+  }
+  
   .taka{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 1280px;
     gap: 25px;
     padding-top: 24px;
     
@@ -182,7 +210,10 @@
   .five{
     background-color: #006A50;
   }
-  .donate{
+  .donate-section{
+    width: 1280px;
+  }
+  .donate-section h1{
     text-align: center;
   }
   .donate p{
@@ -191,22 +222,22 @@
     padding-top: 10px;
   }
   input {
-    padding-top: 24px;
-    width: 1032px; 
+    margin-top: 24px;
+    width: 1000px; 
     padding: 10px 15px; 
     font-size: 16px; 
     border: 2px solid #ccc; 
     border-radius: 8px; 
-    box-sizing: border-box;  
+     
   }
   input::placeholder {
-    text-align: center; /* Center the placeholder text */
+    text-align: center; 
   }
-  .input{
-    padding-top: 34px;
-  }
-  .donet-btn{
+  
+  
+.donet-btn {
     background-color: #006A50; 
+    text-align: center;
     font-size: 14px;
     font-weight: 500;
     border: none;
@@ -214,15 +245,27 @@
     border-radius: 6px;
     cursor: pointer;
     color: white;
-    margin-top: 24px
+    margin-top: 24px;
   }
+  
+  .donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+ 
   .input-footer{
     width: 500px;
   }
   .gap{
-    gap: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
   }
   .footer{
+    width: 1280px;
     margin-top: 32px;
     padding-top: 52px;
     text-align: center;
@@ -234,7 +277,11 @@
     margin-left: 50px;
     margin-right: 20px;
   }
-  
+  .footer-section{
+    display: flex;
+    justify-content: center;
+  }
+ 
 
   
   
